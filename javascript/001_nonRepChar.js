@@ -12,7 +12,7 @@ To solve the problem of finding the first non-repeating character in a string, w
 2. **Character Count**: Keep a count of each character's occurrence. This can be efficiently done using a dictionary in Python.
 3. **Find the Non-Repeating Character**: Traverse the string again and use the dictionary to check the count of each character. The first character with a count of 1 is the non-repeating character.
 
-Here's the implementation in Python:
+Here's the implementation in JavaScript:
 */
 
 const firstNonRepChar = (word) => {
